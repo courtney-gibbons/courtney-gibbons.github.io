@@ -4687,3 +4687,16 @@ input, select, textarea {
 		}
 
 	}
+
+
+
+
+
+.image-center-parent {
+	display: flex;
+	justify-content: center;
+}
+
+.image-center {
+	width: 45%;
+}
