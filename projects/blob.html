@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Wireless Transceiver</title>
+		<title>Blob Detection</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
@@ -27,8 +27,8 @@
 						<ul class="links">
 							<li><a href="/index.html">Home</a></li>
 							<li><a href="projects.html">Projects</a></li>
-							<li><a href="circuits.html">Circuit Design Projects</a></li>
-							<li class="active"><a href="txrx.html">Wireless Transceiver</a></li>
+							<li><a href="ml.html">Machine Learning Projects</a></li>
+							<li class="active"><a href="blob.html">Blob Detection</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/courtney-gibbons/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
@@ -42,11 +42,8 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h1>Wireless Transceiver</h1>
-									<p style="margin-bottom: -24px;">I was on the hardware team to design a wireless transmitter and receiver at 27 MHz. I designed each
-										component to meet design specifications and simulated them in LT Spice. My Colpitt's
-										Oscillators performed the best on the team, so I designed and soldered the 22 MHz and 4 MHz
-										Oscillator PCBs, then we assembled and tested as a team.</p>
+									<h1>Blob Detection</h1>
+									<p style="margin-bottom: -24px;">I performed blob detection by applying the scale-normalized Laplacian of Gaussian filter.  For the maximum response, &sigma; = radius / &radic; 2.</p>
 								</header>
 							</article>
 
@@ -54,16 +51,23 @@
 							<section class="post">
 								<div class="row">
 									<div class="col-3"><span></span></div>
-									<div class="col-6"><span class="image fit"><img src="images/tx.png" alt="" /></span></div>
+									<div class="col-6"><span class="image fit"><img src="images/blob_detection/circles.png" alt="" /></span></div>
 								</div>
-								<center><em>Transmitter.</em></center>
+								<center><em>Circles to perform blob detection on of radius 5, 10, 15, 20, and 35.</em></center>
 								<br />
 								
 								<div class="row">
 									<div class="col-3"><span></span></div>
-									<div class="col-6"><span class="image fit"><img src="images/rx.png" alt="" /></span></div>
+									<div class="col-6"><span class="image fit"><img src="images/blob_detection/logs.png" alt="" /></span></div>
 								</div>
-								<center><em>Receiver.</em></center>
+								<center><em>Visualizing LoG for radius / &radic; 2.</em></center>
+								<br />
+
+								<div class="row">
+									<div class="col-3"><span></span></div>
+									<div class="col-6"><span class="image fit"><img src="images/blob_detection/blob_detection.png" alt="" /></span></div>
+								</div>
+								<center><em>Blob detection.</em></center>
 								<br />
 							</section>
 

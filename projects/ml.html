@@ -5,162 +5,270 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Machine Learning Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Machine Learning Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="/assets/css/noscript.css" />
+	</noscript>
+</head>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="/index.html" class="logo">Courtney Gibbons</a>
-					</header>
-				
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="/index.html">Home</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li class="active"><a href="ml.html">Machine Learning Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/courtney-gibbons/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/courtney-gibbons" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+<body class="is-preload">
 
-				<!-- Main -->
-					<div id="main">
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h1>Machine Learning Projects</h1>
-									<p style="margin-bottom: -24px;">My machine learning projects vary from implementing FC nets and CNNs from scratch in Numpy to producing a heartrate waveform from a face video within 1 BPM accuracy in PyTorch!</p>
-								</header>
-							</article>
-						
-						<!-- Posts -->
-						<article class="post featured">
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<a href="/inProgress.html" class="image fit"><img src="images/rppg.jpg" alt="" /></a>
-								</div>
-								<div class="col-6 col-12-small">
-									<header>
-										<span class="date">Class Project</span>
-										<h2><a href="/inProgress.html">rPPG</a></h2>
-									</header>
-									<p>Remote photoplethysmography (rPPG) is a contact-free method for measuring a patient's heart rate and pulse signal using just a video of the patient's face.  As part of an honors seminar at UCLA in partnership with Google and the Visual Machines Group, I trained two models for this task.  I retrained PhysNet's model and compared it to my own 3D CNN model, obtaining MAEs of 1.02 and 2.24 BPM, respectively.  These models were ranked #1 and #3 in the class.</p>
-									<ul class="actions special">
-										<li><a href="/inProgress.html" class="button">check it out</a></li>
-									</ul>
-								</div>
-							</div>
-						</article>
+		<!-- Header -->
+		<header id="header">
+			<a href="/index.html" class="logo">Courtney Gibbons</a>
+		</header>
 
-						<article class="post featured">
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<header>
-										<span class="date">Class Project</span>
-										<h2><a href="/inProgress.html">Neural Networks in Numpy</a></h2>
-									</header>
-									<p>I hand-calculated back propagation to achieve loss and gradient expressions, vectorized these expressions, coded them in Numpy using broadcasting, and hand-tuned hyperparameters to classify CIFAR-10.  I implemented this for affine layers, activation layers, convolutional layers, maxpool layers, the softmax classifier, gradient descent, optimizers, batchnorm, and dropout!  Because of this, I have an foundational understanding of neural networks and deep learning in terms of gradients, linear algebra, and implementation.</p>
-									<ul class="actions special">
-										<li><a href="/inProgress.html" class="button">check it out</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<a href="/inProgress.html" class="image fit"><img src="images/momentum.jpg" alt="" /></a>
-								</div>
-							</div>
-						</article>
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li class="active"><a href="ml.html">Machine Learning Projects</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/courtney-gibbons/" class="icon brands fa-linkedin"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="https://github.com/courtney-gibbons" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
 
-							<article class="post featured">
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<a href="facialRecognition.html" class="image fit"><img src="images/ml2_sqaure.jpg" alt="" /></a>
-									</div>
-									<div class="col-6 col-12-small">
-										<header>
-											<span class="date">Club Project</span>
-											<h2><a href="facialRecognition.html">Facial Recognition</a></h2>
-										</header>
-										<p>I coded a headless Raspberry Pi and camera module in Python to 1) detect and save images of a user's face
-											to a directory with their name, 2) train a machine learning model on the images of the desired user's
-											face versus the faces of other users, and 3) use the machine learning model to recognize the desired
-											user's face among other faces.</p>
-										<ul class="actions special">
-											<li><a href="facialRecognition.html" class="button">check it out</a></li>
-										</ul>
-									</div>
-								</div>
-							</article>
+		<!-- Main -->
+		<div id="main">
 
-							<article class="post featured">
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<header>
-											<span class="date">Class Project</span>
-											<h2><a href="/inProgress.html">Wearable IoT with Machine Learning</a></h2>
-										</header>
-										<p>A bracelet uses gyroscope and accelerometer data to track if the user washed their hands, put on their mask, and
-											picked up their phone before leaving the house. It uses C code for Embedded ML on the STM32 SensorTile with IoT
-											module.</p>
-										<ul class="actions special">
-											<li><a href="/inProgress.html" class="button">check it out</a></li>
-										</ul>
-									</div>
-									<div class="col-6 col-12-small">
-										<a href="/inProgress.html" class="image fit"><img src="images/iot1_square.png" alt="" /></a>
-									</div>
-								</div>
-							</article>
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h1>Machine Learning Projects</h1>
+					<p style="margin-bottom: -24px;">My machine learning projects vary from implementing FC nets and
+						CNNs from scratch in Numpy to producing a heartrate waveform from a face video within 1 BPM
+						accuracy in PyTorch!</p>
+				</header>
+			</article>
+
+			<!-- Posts -->
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<a href="/inProgress.html" class="image fit"><img src="images/rppg.jpg" alt="" /></a>
 					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Hometown</h3>
-								<p>Los Altos, CA</p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">courtneygibbons@ucla.edu</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/courtney-gibbons/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/courtney-gibbons" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Class Project</span>
+							<h2><a href="/inProgress.html">rPPG</a></h2>
+						</header>
+						<p>Remote photoplethysmography (rPPG) is a contact-free method for measuring a patient's heart
+							rate and pulse signal using just a video of the patient's face. As part of an honors seminar
+							at UCLA in partnership with Google and the Visual Machines Group, I trained two models for
+							this task. I retrained PhysNet's model and compared it to my own 3D CNN model, obtaining
+							MAEs of 1.02 and 2.24 BPM, respectively. These models were ranked #1 and #3 in the class.
+						</p>
+						<ul class="actions special">
+							<li><a href="/inProgress.html" class="button">check it out</a></li>
+						</ul>
 					</div>
+				</div>
+			</article>
 
-			</div>
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Class Project</span>
+							<h2><a href="/inProgress.html">Neural Networks in Numpy</a></h2>
+						</header>
+						<p>I hand-calculated back propagation to achieve loss and gradient expressions, vectorized these
+							expressions, coded them in Numpy using broadcasting, and hand-tuned hyperparameters to
+							classify CIFAR-10. I implemented this for affine layers, activation layers, convolutional
+							layers, maxpool layers, the softmax classifier, gradient descent, optimizers, batchnorm, and
+							dropout! Because of this, I have an foundational understanding of neural networks and deep
+							learning in terms of gradients, linear algebra, and implementation.</p>
+						<ul class="actions special">
+							<li><a href="/inProgress.html" class="button">check it out</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="/inProgress.html" class="image fit"><img src="images/momentum.jpg" alt="" /></a>
+					</div>
+				</div>
+			</article>
 
-		<!-- Scripts -->
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/jquery.scrollex.min.js"></script>
-			<script src="/assets/js/jquery.scrolly.min.js"></script>
-			<script src="/assets/js/browser.min.js"></script>
-			<script src="/assets/js/breakpoints.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-			<script src="/assets/js/main.js"></script>
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<a href="facialRecognition.html" class="image fit"><img src="images/ml2_sqaure.jpg"
+								alt="" /></a>
+					</div>
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Club Project</span>
+							<h2><a href="facialRecognition.html">Facial Recognition</a></h2>
+						</header>
+						<p>I coded a headless Raspberry Pi and camera module in Python to 1) detect and save images of a
+							user's face
+							to a directory with their name, 2) train a machine learning model on the images of the
+							desired user's
+							face versus the faces of other users, and 3) use the machine learning model to recognize the
+							desired
+							user's face among other faces.</p>
+						<ul class="actions special">
+							<li><a href="facialRecognition.html" class="button">check it out</a></li>
+						</ul>
+					</div>
+				</div>
+			</article>
 
-	</body>
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Class Project</span>
+							<h2><a href="stitching.html">Image Stitching</a></h2>
+						</header>
+						<p>I performed image stitching by running SIFT to obtain keypoints and descriptors, computing
+							the inliers with RANSAC, calculating the homography with the inliers, then applying that
+							homography.</p>
+						<ul class="actions special">
+							<li><a href="stitching.html" class="button">check it out</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="stitching.html" class="image fit"><img src="images/stitching/stitched_square.png"
+								alt="" /></a>
+					</div>
+				</div>
+			</article>
+
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<a href="corner.html" class="image fit"><img src="images/corners/suppressed_corners_square.png" alt="" /></a>
+					</div>
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Class Project</span>
+							<h2><a href="corner.html">Harris Corner Detector</a></h2>
+						</header>
+						<p>I performed corner detection with the Harris Corner Detector.  I first computed image gradients with the Sobel filter.  Then, I computing the covariance matrix of the image gradients convolved with the average filter.  Then, I computed the Harris response for each pixel.  Finally, I applied non-maximal suppression by removing responses that are not local maxima.
+						</p>
+						<ul class="actions special">
+							<li><a href="corner.html" class="button">check it out</a></li>
+						</ul>
+					</div>
+				</div>
+			</article>
+
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Class Project</span>
+							<h2><a href="blob.html">Blob detection</a></h2>
+						</header>
+						<p>I performed blob detection by applying the scale-normalized Laplacian of Gaussian filter.  For the maximum response, &sigma; = radius / &radic; 2.</p>
+						<ul class="actions special">
+							<li><a href="blob.html" class="button">check it out</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="blob.html" class="image fit"><img src="images/blob_detection/blob_detection_square.png"
+								alt="" /></a>
+					</div>
+				</div>
+			</article>
+
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<a href="filtering.html" class="image fit"><img src="images/filtering/noise_filtering_square.png" alt="" /></a>
+					</div>
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Class Project</span>
+							<h2><a href="filtering.html">Filtering</a></h2>
+						</header>
+						<p>I implemented and compared average filtering, Gaussian filtering, median filtering, and bilateral filtering.
+						</p>
+						<ul class="actions special">
+							<li><a href="filtering.html" class="button">check it out</a></li>
+						</ul>
+					</div>
+				</div>
+			</article>
+
+			<article class="post featured">
+				<div class="row">
+					<div class="col-6 col-12-small">
+						<header>
+							<span class="date">Class Project</span>
+							<h2><a href="/inProgress.html">Wearable IoT with Machine Learning</a></h2>
+						</header>
+						<p>A bracelet uses gyroscope and accelerometer data to track if the user washed their hands, put
+							on their mask, and
+							picked up their phone before leaving the house. It uses C code for Embedded ML on the STM32
+							SensorTile with IoT
+							module.</p>
+						<ul class="actions special">
+							<li><a href="/inProgress.html" class="button">check it out</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-12-small">
+						<a href="/inProgress.html" class="image fit"><img src="images/iot1_square.png" alt="" /></a>
+					</div>
+				</div>
+			</article>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Hometown</h3>
+					<p>Los Altos, CA</p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="#">courtneygibbons@ucla.edu</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.linkedin.com/in/courtney-gibbons/"
+								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/courtney-gibbons" class="icon brands fa-github"><span
+									class="label">GitHub</span></a></li>
+					</ul>
+				</section>
+			</section>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; Untitled</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js"></script>
+
+</body>
+
 </html>
